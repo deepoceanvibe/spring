@@ -9,4 +9,10 @@ public class HotelTest {
         Hotel hotel = new Hotel();
         hotel.inform();
     }
+
+    @Test
+    public void chefTest() {
+        Chef chef = new KoreanChef();
+        chef.cook();
+    }
 }

@@ -9,10 +9,7 @@ package com.spring.core.chap01;
  */
 
 public class Hotel {
-    // 호텔 내부 레스토랑 선언
     private Restaurant restaurant;
-
-    // 수석 셰프
     private Chef chef;
 
     // ! 문제의 지점 : 생성자 내부 new 키워드를 이용해 호텔에 입점시킬 식당 종류와 셰프 계속 갈아바꿔줘야 함 !

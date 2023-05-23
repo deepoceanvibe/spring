@@ -9,7 +9,7 @@ public class HotelManagerTest {
     @Test
     public void diTest() {
         HotelManager manager = new HotelManager();
-        Hotel hotel = manager.hotel();      // ! 매니저에서 hotel() 호출하면, 내부적으로 hotel 조립함
+        Hotel hotel = manager.hotel();
         hotel.inform();
     }
 }
